@@ -7,9 +7,9 @@
     </head>
     <body>
         
-        
-        <h1 align="center">Clinica Angels</h1> 
         <div style="text-align: right">
+        <h1 align="center">Clinica Angels</h1> 
+        
         <header align="center">
         <form action="entrar.php" method="POST" >
         <input type="text" name="txtLogin" required placeholder="E-mail ou CPF: " />
@@ -38,6 +38,7 @@
         
         <h3 align="center">Sobre</h5>
         <h4 align="center">Escreva aqui coisas sobre a Angel Clinicas</h4>
+        
         
         
         

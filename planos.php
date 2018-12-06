@@ -16,7 +16,7 @@
         ?>
         
         <br>
-      
+
         <h2 align="center">Confira a seguir os nossos planos e preços:</h2>
         
         <br>
