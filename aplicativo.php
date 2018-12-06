@@ -17,7 +17,7 @@
         
         <br>
         <header align="center">
-            <button><h3>Acesse nosso App</h3></button>
+        <button><h1>Acesse nosso App</h1></button>
         </header>
         <br>
       
