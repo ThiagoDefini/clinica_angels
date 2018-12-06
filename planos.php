@@ -17,11 +17,17 @@
         
         <br>
         
-        <u><h3 align="center">Confira a seguir os nossos planos e pacotes</h3></u>
+        <h2 align="center">Confira a seguir os nossos planos e preços:</h2>
         
         <br>
-      
-        <h4 align="center">Plano1 - Preço</h4>
+        <table border="2" align="center">
+            <tr>
+                <th>Plano</th>
+                <th>Preço</th>
+            </tr>
+        </table>
+        
+        
         
     </body>
 </html>
