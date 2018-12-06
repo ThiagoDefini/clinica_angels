@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Clinica Angels</title>
+        <title>Clinica Angels - Procedimentos</title>
     </head>
     <body>
         
