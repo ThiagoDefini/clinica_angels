@@ -1,6 +1,7 @@
 <?php
     include_once 'dao/clsClienteDAO.php';
     include_once 'dao/clsConexao.php';
+    include_once 'model/clsCliente.php';
 
     session_start();
     
