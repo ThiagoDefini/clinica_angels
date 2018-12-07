@@ -9,13 +9,14 @@
         <title>Clinica Angels - Página Inicial</title>
         
     </head>
+    
     <body>
-       
+      
     <body style="background-image: url('fotos_site/background.jpg.jpg'); "/>
         <br>
         <h1 align="center">Clinica Angels</h1> 
       
-        <header align="right">
+        <header align="center">
         <form action="entrar.php" method="POST" >
         <input type="text" name="txtLogin" required placeholder="E-mail ou CPF: " />
     
