@@ -16,4 +16,25 @@ class ClienteDAO {
         
         Conexao::executar($sql);
     }
+
+    public static function editar ($cliente){
+        $sql = "UPDATE clientes SET "
+                . " nome = '".$cliente->getNome()."' , "
+                . " telefone = '".$cliente->getTelefone(). "' , " 
+                . " cpf = '".$cliente->getCpf(). "' , " 
+                . " email = '".$cliente->getEmail(). "' , " 
+                . " sexo = '".$cliente->getSexo(). "' , " 
+                . " admin = ".$cliente->getAdmin()."  "
+                . " WHERE id = ".$cliente->getId();
+        
+        Conexao::executar($sql);
+    }
+    
+    public static function excluir( $cliente ){
+        $sql = "DELETE FROM clientes "
+                . " WHERE id = ".$cliente->getId();
+        
+        Conexao::executar($sql);        
+    }
 }
+
