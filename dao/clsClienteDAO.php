@@ -4,16 +4,14 @@ class ClienteDAO {
     
     public static function inserir($cliente){
         $sql = "INSERT INTO clientes "
-                . "( nome, telefone, cpf, email, senha, sexo, admin ) VALUES "
+                . "( nome, telefone, cpf, email, senha, sexo) VALUES "
                 . " ( '".$cliente->getNome()."' , "
                 . "   '".$cliente->getTelefone()."' , "
                 . "   '".$cliente->getCpf()."' , "
                 . "   '".$cliente->getEmail()."' , "
                 . "   '".$cliente->getSenha()."' , "
-                . "   '".$cliente->getSexo()."' , "
-                . "    ".$cliente->getAdmin()
-                . " ); ";
-        
+                . "   '".$cliente->getSexo()."' );";
+                   
         Conexao::executar($sql);
     }
 
@@ -36,5 +34,23 @@ class ClienteDAO {
         
         Conexao::executar($sql);        
     }
-}
-
+public static function logar($login, $senha){
+        $sql = "select id, nome from clientes where (email = '".$login."' or "
+                ."CPF = '".$login."') "." and senha = '".$senha."' ";
+        
+        $result = Conexao::consultar($sql);
+        
+        if (mysqli_num_rows($result) > 0){
+            $dados = mysqli_fetch_assoc($result);
+            $cliente = new Cliente();
+            $cliente-> setId ($dados['id']);
+            $cliente-> setNome ($dados['nome']);
+            $clinete->setAdmin( $dados['admin']);
+            return $cliente;
+            
+        } else{
+            return NULL;
+        }
+        
+    }
+ }   
