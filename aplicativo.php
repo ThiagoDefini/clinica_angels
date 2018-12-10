@@ -17,11 +17,10 @@
         
         <br>
         <header align="center">
-        <button><h1>Acesse nosso App</h1></button>
+        <button><h3>Acesse nosso App</h3></button>
         </header>
         <br>
       
-        <h4 align="center">Mais de 500 mil downloads em todo brasil</h4>
         
     </body>
 </html>

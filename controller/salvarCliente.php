@@ -1,7 +1,7 @@
 <?php
     include_once '../dao/clsClienteDAO.php';
     include_once '../dao/clsConexao.php';
-
+    include_once '../model/clsCliente.php';
     if ( isset($_REQUEST['inserir']) ){
     $senha = $_POST['txtSenha'];
     $senhaConfirma = $_POST['txtConfirmaSenha'];

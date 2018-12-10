@@ -22,7 +22,6 @@ class ClienteDAO {
                 . " cpf = '".$cliente->getCpf(). "' , " 
                 . " email = '".$cliente->getEmail(). "' , " 
                 . " sexo = '".$cliente->getSexo(). "' , " 
-                . " admin = ".$cliente->getAdmin()."  "
                 . " WHERE id = ".$cliente->getId();
         
         Conexao::executar($sql);
