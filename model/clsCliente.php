@@ -10,7 +10,6 @@ class Cliente {
         $this->cpf = $cpf;
         $this->email = $email;
         $this->senha = $senha;
-        $this->admin = $admin;
         $this->sexo = $sexo;
     }
     
@@ -36,10 +35,6 @@ class Cliente {
 
     function getSenha() {
         return $this->senha;
-    }
-
-    function getAdmin() {
-        return $this->admin;
     }
 
     function getSexo() {
@@ -68,10 +63,6 @@ class Cliente {
 
     function setSenha($senha) {
         $this->senha = $senha;
-    }
-
-    function setAdmin($admin) {
-        $this->admin = $admin;
     }
 
     function setSexo($sexo) {

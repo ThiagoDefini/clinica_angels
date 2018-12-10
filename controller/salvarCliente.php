@@ -6,7 +6,7 @@
     $senha = $_POST['txtSenha'];
     $senhaConfirma = $_POST['txtConfirmaSenha'];
     
-    if( $senha != $senhaConfirma || $_POST['cidade']==0 ){
+    if( $senha != $senhaConfirma ){
         echo "<body onload='window.history.back();'>";
     }else{
     
@@ -14,16 +14,8 @@
         $cliente->setNome( $_POST['txtNome'] );
         $cliente->setTelefone( $_POST['txtTelefone'] );
         $cliente->setEmail( $_POST['txtEmail'] );
-        $cliente->setCpf( $_POST['txtCPF'] );
-        
-        if( isset( $_POST['cbAdmin'] ) ){
-            $cliente->setAdmin( 1 );
-        }else{
-            $cliente->setAdmin( 0 );
-        }
-        
-        $cliente->setSexo($_POST['rbSexo']);
-        
+        $cliente->setCpf( $_POST['txtCPF'] );               
+        $cliente->setSexo($_POST['rbSexo']);        
         $senha = md5($senha);
         $cliente->setSenha( $senha );
         
