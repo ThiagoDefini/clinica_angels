@@ -85,8 +85,6 @@
         
         <label>Confirme sua senha: </label>
         <input type="password" name="txtConfirmaSenha" required maxlength="100" placeholder="Digite a senha novamente"> <br><br>
-        
-        
         <input type="submit" value="Salvar"/>
         <input type="reset" value="Limpar"/>
         

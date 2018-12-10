@@ -12,7 +12,6 @@
     
     <body>
       
-    <body style="background-image: url('fotos_site/background.jpg.jpg'); "/>
         <br>
         <h1 align="center">Clinica Angels</h1> 
 

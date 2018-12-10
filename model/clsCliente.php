@@ -1,9 +1,9 @@
 <?php
 
 class Cliente {
-    private $id, $nome, $telefone, $cpf, $email, $senha, $admin, $sexo;
+    private $id, $nome, $telefone, $cpf, $email, $senha,  $sexo;
     
-    function __construct($id = NULL, $nome = NULL, $telefone = NULL, $cpf = NULL, $email = NULL, $senha = NULL, $admin = NULL, $sexo = NULL) {
+    function __construct($id = NULL, $nome = NULL, $telefone = NULL, $cpf = NULL, $email = NULL, $senha = NULL, $sexo = NULL) {
         $this->id = $id;
         $this->nome = $nome;
         $this->telefone = $telefone;
