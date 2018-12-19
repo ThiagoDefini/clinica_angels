@@ -44,7 +44,7 @@ public static function logar($login, $senha){
             $cliente = new Cliente();
             $cliente-> setId ($dados['id']);
             $cliente-> setNome ($dados['nome']);
-            $clinete->setAdmin( $dados['admin']);
+            $cliente->setAdmin ($dados['admin']);
             return $cliente;
             
         } else{
