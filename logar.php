@@ -17,10 +17,10 @@ if($cliente == NULL){
     $_SESSION['logado'] = true;
     $_SESSION['idCliente'] = $cliente->getId();
     $_SESSION['nome'] = $cliente->getNome();
-    $_SESSION['foto'] = $cliente->getFoto();
     $_SESSION['admin'] = $cliente->getAdmin();
     
     
     
     header("Location: ".$_SERVER['http_referer']);
 }
+?>

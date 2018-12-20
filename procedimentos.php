@@ -17,11 +17,20 @@
         
         <br>
         
-        <u><h3 align="center">O que fazemos para você!</h3></u>
+        <u><h1 align="center">Como funciona?</h1></u>
         
-        <h5 align="center">Cirurgia</h5>
-        <h5 align="center">Exames de Vista</h5>
-        <h5 align="center">...</h5>
+        <header align="center">
+            
+            <p><h3>Para começar a desfrutar de nossos serviçoes online<br>
+                   basta realizar um cadastro no nosso site, preenche-<br>
+                   do o formulário de cadastro. Após isso, basta fazer<br>
+                   o login com seu E-mail e senha, na área de login no<br>
+                   site. Com o seu usuário já logado, basta ir na ses-<br>
+                   são de consultas (visível apenas para quem está co-<br>
+                   nectado). Após isso basta marcar sua consulta.
+                </h3><p>
+    
+        </header>
         
     </body>
 </html>

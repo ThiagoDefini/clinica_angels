@@ -1,6 +1,7 @@
 <?php
     include_once 'dao/clsClienteDAO.php';
     include_once 'dao/clsConexao.php';
+    include_once 'model/clsCliente.php';
         
     
     $login = $_POST['txtLogin'];
@@ -16,7 +17,6 @@
         $_SESSION['logado'] = TRUE;
         $_SESSION['idCliente'] = $cliente->getId();
         $_SESSION['nome'] = $cliente->getNome();
-        $_SESSION['foto'] = $cliente->getFoto();
         $_SESSION['admin'] = $cliente->getAdmin();
         
         
