@@ -20,11 +20,12 @@
     <?php
             if(isset($_SESSION['logado']) && ($_SESSION['logado']) == TRUE){
         ?>
+    
     <header align="center">
         <a href="consultas.php"><button>Consultas</button></a>
     </header>
     <?php
-                echo 'Olá, '.$_SESSION['nome'].'    ';
+                echo 'Bem-vindo, '.$_SESSION['nome'].'    ';
                 echo '<a href="sair.php"><button>Sair</button></a>';
             }else{
         ?>

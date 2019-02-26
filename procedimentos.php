@@ -22,7 +22,7 @@
         <header align="center">
             
             <p><h3>Para começar a desfrutar de nossos serviçoes online<br>
-                   basta realizar um cadastro no nosso site, preenche-<br>
+                   basta realizar um cadastro no nosso site, preenchen-<br>
                    do o formulário de cadastro. Após isso, basta fazer<br>
                    o login com seu E-mail e senha, na área de login no<br>
                    site. Com o seu usuário já logado, basta ir na ses-<br>

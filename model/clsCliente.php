@@ -1,7 +1,7 @@
 <?php
 
 class Cliente {
-    private $id, $nome, $telefone, $cpf, $email, $senha,  $sexo;
+    private $id, $nome, $telefone, $cpf, $email, $senha,  $sexo, $admin;
     
     function __construct($id = NULL, $nome = NULL, $telefone = NULL, $cpf = NULL, $email = NULL, $senha = NULL, $sexo = NULL) {
         $this->id = $id;
@@ -40,6 +40,10 @@ class Cliente {
     function getSexo() {
         return $this->sexo;
     }
+    
+    function getAdmin() {
+        return $this->admin;
+    }
 
     function setId($id) {
         $this->id = $id;
@@ -67,6 +71,10 @@ class Cliente {
 
     function setSexo($sexo) {
         $this->sexo = $sexo;
+    }
+    
+    function setAdmin($admin) {
+        $this->admin = $admin;
     }
 
 
