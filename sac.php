@@ -7,7 +7,7 @@
     <body>
         
         <h1 align="center">SAC</h1>
-        <hr><br>        
+        <br>        
         
         <?php
             require_once 'menu.php';

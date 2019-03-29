@@ -7,28 +7,32 @@
     <head>
         <meta charset="UTF-8">
         <title>Clinica Angels - Página Inicial</title>
-        
+        <link href="estilos.css" rel="stylesheet" type="text/css" />
     </head>
     
     <body>
       
-        <br>
-        <h1 align="center">Clinica Angels</h1> 
-
-        <header align="center">
-        <form action="entrar.php" method="POST" > 
-        <input type="text" name="txtLogin" required placeholder="E-mail ou CPF: " />
-
-        <input type="password" name="txtSenha" placeholder="Senha: " required />  
+        <div id="top">
         
-        <input type="submit" value="Entrar" />
+        <h1 align="center">Clinica Angels</h1> 
+        
+        <a id="cadastrocss" href="FrmCliente.php">Cadastre-se</a>
+        
+        <div id="logincss">
+        <form action="entrar.php" method="POST"/> 
+        
+        
+        <input id="barra1" type="text" name="txtLogin" required placeholder="E-mail ou CPF" />
+
+        <input id="barra1" type="password" name="txtSenha" placeholder="Senha" required />
+        
+        </div>
+        <input id="entrarcss" type="submit" value="Entrar"/>
+        
         </form>
         <br>
-        <a href="FrmCliente.php">
-            <button>Cadastre-se</button></a>
-        </header>
-
-        <hr><br>       
+        </div>
+               
         
         <?php        
         require_once 'menu.php';    
@@ -36,13 +40,7 @@
 
         <br><br>
 
-        <br>
-        
-     <h3 align="center">Sobre</h5>
-        <h4 align="center">Bem vindo a Clinica Angels</h4>
-        
-        
-        
+        <br>  
         
     </body>
 </html>

@@ -9,7 +9,7 @@
         
         <h1 align="center">Aplicativo</h1>
         
-        <hr><br>
+        <br>
         
         <?php        
         require_once 'menu.php';       

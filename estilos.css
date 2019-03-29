@@ -1,0 +1,69 @@
+body{padding:0; margin:0;}
+
+#logincss{
+    position: relative;
+    left: 800px;
+    
+}
+
+#cadastrocss{
+    position: absolute;
+    left: 690px;
+    text-decoration: none;
+    font-family: georgia;
+    font-size: 18px;
+}
+
+#cadastrocss:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#entrarcss{
+    height: 28px;
+    position: absolute;
+    left: 1120px;
+    top: 90px;
+}
+
+#menucss {
+    position: absolute;
+    margin-top: 5px; 
+    margin-left: 550px;
+}
+
+#botoescss{
+    width: 100px;
+    height: 30px;
+    margin: 0 20px;
+}
+
+#campo_nome{
+    position: initial;
+    margin-left: 90px;
+}
+
+#area_formulario
+{
+  position:relative;
+  left:38%;
+  top: 100px;
+  width:550px;
+  height:320px;
+}
+
+#barra1{
+    width: 140px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+#top{
+    padding: 10px;
+    background: #2398e0;
+}
+
+#top_consultas{
+    padding: 32px;
+    background: #2398e0;
+}
