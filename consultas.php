@@ -33,28 +33,38 @@
         <form id="formulario" autocomplete="off">
             <fieldset>
             <label>Nome: </label>
-            <input class="campo_nome"type="text" name="txtNome" required maxlength="100" placeholder="Insira o nome aqui"/> <br><br>
+            <input class="campo_nome" type="text" name="txtNome" required maxlength="100" placeholder="Insira o nome aqui"/> 
         
             <label>Telefone: </label>
-            <input type="text" name="txtTelefone" required maxlength="100" placeholder="Digite o telefone"/> <br><br>
+            <input type="text" name="txtTelefone" required maxlength="100" placeholder="Digite o telefone"/>  <br>
         
             <label>E-mail: </label>
             <input type="email" name="txtEmail" required maxlength="100" placeholder="Endereço de E-mail"/> <br><br>
         
             <label>CPF: </label>
             <input type="text" name="txtCPF" required maxlength="100" placeholder="111.222.333-00"/> <br><br>
-        
-            <label>Horários Disponíveis: </label>
-            <input type="date" name="txtCPF" required maxlength="100" placeholder="Cadastro de Pessoa Física"/> <br><br>
-        
-            <label>Médicos Disponíveis: </label>
-            <input type="radio" name="rbSexo" value="m" required/> Masculino
-            <input type="radio" name="rbSexo" value="f" required/> Feminino <br><br>
+            
+            <label>Bairro: </label>
+            <input type="text" name="txtBairro" required maxlength="100" placeholder="Digite seu bairro"/>
+            
+            <label>Cidade: </label>
+            <input type="text" name="txtCidade" required maxlength="100" placeholder="Digite sua cidade"/>
+            
+            <label>CEP: </label>
+            <input type="text" name="txtCEP" required maxlength="100" placeholder="Digite seu CEP"/>
+            
+            <label>Horários Disponíveis</label>
+            <input type="radio" name="txtHora" required/> 14:35
+            <input type="radio" name="txtHora"/> 14:50
+            <input type="radio" name="txtHora"/> 15:30
+            <input type="radio" name="txtHora"/> 16:40 <br>
         
             <label>Modo de Pagamento: </label>
-            <input type="password" name="txtSenha" required maxlength="100" placeholder="Escolha uma senha"/> <br><br>
-        
-            <input type="submit" name="btn_enviar" value="Marcar"/>
+            <select name="pagamento">
+                <option value="dinheiro">Dinheiro</option> 
+                <option value="debito">Débito</option> 
+                <option value="credito">Crédito</option>
+            </select>
             </fieldset>
         </form>
     </div>
