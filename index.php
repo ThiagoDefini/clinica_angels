@@ -21,7 +21,6 @@
         <div id="logincss">
         <form action="entrar.php" method="POST"/> 
         
-        
         <input id="barra1" type="text" name="txtLogin" required placeholder="E-mail ou CPF" />
 
         <input id="barra1" type="password" name="txtSenha" placeholder="Senha" required />
@@ -29,15 +28,20 @@
         </div>
         <input id="entrarcss" type="submit" value="Entrar"/>
         
-        </form>
         <br>
         </div>
-               
         
         <?php        
         require_once 'menu.php';    
         ?>
+        
+        <div id="app">
+            <a href="https://play.google.com/store?hl=pt_BR"><img width="50px" height="50px" src="fotos_site/app-icone.png"/></a>
+        </div>
 
+        <div id="app_letras">
+        <a href="https://play.google.com/store?hl=pt_BR"><h2>Baixe nosso App</h2></a>
+        </div>
         <br><br>
 
         <br>  

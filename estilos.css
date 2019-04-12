@@ -26,10 +26,25 @@ body{padding:0; margin:0;}
     top: 90px;
 }
 
+#app{
+    position: absolute;
+    left: 70%;
+    top: 40px;
+}
+
+#app_letras{
+    position: absolute;
+    left: 67%;
+    top: 80px;
+    font-family: calibri;
+    text-decoration: underline;
+}
+
+
 #menucss {
     position: absolute;
     margin-top: 5px; 
-    margin-left: 550px;
+    margin-left: 750px;
 }
 
 #botoescss{
